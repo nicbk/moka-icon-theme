@@ -23,8 +23,8 @@ import xml.sax
 import subprocess
 import argparse
 
-INKSCAPE = '/usr/bin/inkscape'
-OPTIPNG = '/usr/bin/optipng'
+INKSCAPE = os.environ['INKSCAPE']
+OPTIPNG = os.environ['OPTIPNG'] 
 MAINDIR = '../../Moka'
 SOURCES = ('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','web','X','Y','Z','#')
 

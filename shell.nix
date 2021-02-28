@@ -5,5 +5,7 @@ pkgs.mkShell {
     meson
     python3
     ninja
+    inkscape
+    optipng
   ];
 }
